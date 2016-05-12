@@ -6,7 +6,6 @@
   DemoViewModel = kendo.data.ObservableObject.extend({
     
     _openFile: function (file) {
-      alert('opening: ' + file);
       cordova.plugins.fileOpener2.open(
         file,
         'image/png', // make sure this is the same mimetype as your file
@@ -46,13 +45,11 @@
             loadFrom,
             saveTo,
             function(entry) {
-              alert("download complete: " + entry.toURL());
+              console.log("download complete: " + entry.toURL());
               that._openFile(entry.toURL());
             },
             function(error) {
-                alert("download error source " + error.source);
-              //  alert("download error target " + error.target);
-              //  alert("upload error code" + error.code);
+                alert("download error (source) " + error.source);
             },
             false,
             {}
