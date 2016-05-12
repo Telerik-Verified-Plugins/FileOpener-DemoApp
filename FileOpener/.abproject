@@ -2,11 +2,11 @@
   "ProjectName": "FileOpener",
   "ProjectGuid": "c58b170a-a59b-4caa-b978-31cc6b7d4a63",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.FileOpener",
-  "DisplayName": "FileOpener",
-  "Author": "",
-  "Description": "FileOpener",
-  "BundleVersion": "1.0",
+  "AppIdentifier": "com.telerik.plugindemo.fopen",
+  "DisplayName": "File Opener demo",
+  "Author": "Telerik",
+  "Description": "File Opener plugin demo app",
+  "BundleVersion": "1.0.2",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -41,5 +41,16 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
-  ]
+  ],
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-file",
+    "cordova-plugin-file-transfer",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist"
+  ],
+  "iOSDeploymentTarget": "8.0"
 }
