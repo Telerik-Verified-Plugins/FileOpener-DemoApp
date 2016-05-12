@@ -1,7 +1,7 @@
-File Opener (TODO, all below)
-====================
+File Opener
+===========
 
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3a%2f%2fgithub.com%2fTelerik-Verified-Plugins%2fSafariViewController-DemoApp" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3a%2f%2fgithub.com%2fTelerik-Verified-Plugins%2fFileOpener-DemoApp" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
 
 <a id="top"></a>
 * [Overview](#overview)
@@ -11,9 +11,9 @@ File Opener (TODO, all below)
 
 # Overview
 
-This sample shows you how to implement the iOS9+ SafariViewController (as opposed to In-App Browser) in a hybrid mobile app using the SafariViewController plugin from the [Telerik Verified Plugins Marketplace][marketplace].
+This sample app shows you how to add a File Opener dialog using the File Opener plugin from the [Telerik Verified Plugins Marketplace][marketplace].
 
-> *Supported mobile platforms:* iOS
+> *Supported mobile platforms:* iOS, Android
 >
 > *Developed with:* Apache Cordova 4.0.0, Kendo UI Core 2015.3.1023
 
@@ -25,19 +25,13 @@ This sample shows you how to implement the iOS9+ SafariViewController (as oppose
 
 Native | Flat
 --- | ---
-![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/skin-native.PNG) | ![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/skin-flat.PNG)
+![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/FileOpener-DemoApp/master/screenshots/demo-native.PNG) | ![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/FileOpener-DemoApp/master/screenshots/demo-flat.PNG)
 
-### Transitions
+### Opening a file (iOS)
 
-Curl | Flip
+App chooser | User picked Twitter
 --- | ---
-![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/curl.PNG) | ![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/flip.PNG)
-
-### Features
-
-Reader mode | Sharing | Events
---- | --- | ---
-![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/readermode.PNG) | ![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/sharing.PNG) | ![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/SafariViewController-DemoApp/master/screenshots/ios/events.PNG)
+![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/FileOpener-DemoApp/master/screenshots/ios-sharesheet.PNG) | ![](https://raw.githubusercontent.com/Telerik-Verified-Plugins/FileOpener-DemoApp/master/screenshots/ios-twitter.PNG)
 
 [Back to Top](#top)
 
@@ -69,7 +63,7 @@ With the AppBuilder universal desktop client, you can develop hybrid and NativeS
 1. Click **Create app**.
 1. Click **Advanced**.
 1. Select **Clone repository**.
-1. Enter `https://github.com/Telerik-Verified-Plugins/SafariViewController-DemoApp.git` in the **Repository URI** text box.
+1. Enter `https://github.com/Telerik-Verified-Plugins/FileOpener-DemoApp.git` in the **Repository URI** text box.
 1. Provide an app name.
 1. (Optional) Provide description.
 1. Click **Create app** and wait for the in-browser client to load the app.
@@ -93,7 +87,7 @@ With the AppBuilder Windows client, you can develop hybrid and NativeScript cros
 1. Click **Create app**.
 1. Click **Advanced**.
 1. Select **Clone repository**.
-1. Enter `https://github.com/Telerik-Verified-Plugins/SafariViewController-DemoApp.git` in the **Repository URI** text box.
+1. Enter `https://github.com/Telerik-Verified-Plugins/FileOpener-DemoApp.git` in the **Repository URI** text box.
 1. Provide an app name.
 1. Click **Clone**.
 
@@ -115,7 +109,7 @@ With the AppBuilder extension for Visual Studio, you can develop hybrid and Nati
 
 ### Clone the sample
 
-1. On your local file system, clone the [remote repository](https://github.com/Telerik-Verified-Plugins/SafariViewController-DemoApp) that contains the app.
+1. On your local file system, clone the [remote repository](https://github.com/Telerik-Verified-Plugins/FileOpener-DemoApp) that contains the app.
 1. In the top menu bar, click **File** &#8594; **Open** &#8594; **Project/Solution**.
 1. Navigate to the location where your app is stored.
 1. Locate the `ABPROJECT` file for your app and double-click it.
@@ -139,7 +133,7 @@ With the AppBuilder command-line interface, you can develop hybrid and NativeScr
 
 ### Clone the sample
 
-1. On your local file system, clone the [remote repository](https://github.com/Telerik-Verified-Plugins/SafariViewController-DemoApp) that contains the app.
+1. On your local file system, clone the [remote repository](https://github.com/Telerik-Verified-Plugins/FileOpener-DemoApp) that contains the app.
 1. In the command prompt, navigate to the directory that contains the `ABPROJECT` file for your app.
 
 The AppBuilder command-line interface shows the following message: `Successfully initialized project in the folder!`
