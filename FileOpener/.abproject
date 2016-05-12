@@ -1,0 +1,45 @@
+{
+  "ProjectName": "FileOpener",
+  "ProjectGuid": "c58b170a-a59b-4caa-b978-31cc6b7d4a63",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.FileOpener",
+  "DisplayName": "FileOpener",
+  "Author": "",
+  "Description": "FileOpener",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{2e5216ce-09db-4c2a-8b12-38f242210277}",
+  "WP8ProductID": "{846eb1e1-fff0-45a6-be7d-0878d2d0f938}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.FileOpener",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
